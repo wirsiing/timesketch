@@ -197,7 +197,6 @@ export default {
       changeComment.editable = enable
       this.comments.splice(commentIndex, 1, changeComment)
     },
-
     selectComment(comment) {
       this.selectedComment = comment
     },
